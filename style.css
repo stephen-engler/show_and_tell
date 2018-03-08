@@ -6,7 +6,14 @@
   100% {background-color: purple; opacity: 1; left: 100px;}
 
 }
+@keyframes bodyAnimation {
+  0% {background-image: url('http://wallpaper-gallery.net/images/space-cat-wallpaper/space-cat-wallpaper-3.jpg');}
+  25% {background-image: url("https://i.imgur.com/G5pfP.jpg");}
+  50% {background-image: url('https://physicsforme.files.wordpress.com/2012/02/space_cats.jpg');}
+  75% {background-image: url('http://i.imgur.com/NPrdE5b.jpg');}
+  100% {background-image: url('https://images6.alphacoders.com/475/475224.jpg');}
 
+}
 #animation {
   background-image: url('http://pixelartmaker.com/art/81c98ef38942c06.png');
   background-size: cover;
@@ -21,4 +28,7 @@
 body {
   background-image: url("http://wallpaper-gallery.net/images/space-cat-wallpaper/space-cat-wallpaper-3.jpg");
   background-size: cover;
+  animation-name: bodyAnimation;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
